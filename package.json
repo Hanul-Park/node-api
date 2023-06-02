@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6"
+  },
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "should": "^13.2.3",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha api/user/user.spec.js -w",
+    "start": "node bin/www.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
